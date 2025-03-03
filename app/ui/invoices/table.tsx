@@ -9,7 +9,7 @@ export default async function InvoicesTable({
   currentPage,
 }: {
   query: string;
-  currentPage: number;git
+  currentPage: number;
 }) {
   const invoices = await fetchFilteredInvoices(query, currentPage);
 
